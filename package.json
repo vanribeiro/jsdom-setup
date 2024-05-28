@@ -1,0 +1,27 @@
+{
+  "name": "jsdom-setup",
+  "version": "1.0.0",
+  "description": "a repo to setup vanilla html/css/js site unity test",
+  "main": "src/dist/js/index.js",
+  "scripts": {
+    "test": "jest --config=jest.config.ts ./src/scripts",
+    "ts": "tsc"
+  },
+  "author": "Van Ribeiro",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "@babel/preset-typescript": "^7.24.6",
+    "@testing-library/dom": "^10.1.0",
+    "@testing-library/jest-dom": "^6.4.5",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.12",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  }
+}
